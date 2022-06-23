@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlideShow: B7Web</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header"></div>
+        <div class="slider">
+            <div class="slider--controls">
+                <div style="background-color: black;" class="slider--control" onclick="goPrev()">voltar</div>
+                <div style="background-color: black;" class="slider--control" onclick="goNext()">proximo</div>
+            </div>
+            <div class="slider--width" style="width: calc(100vw * 3);">
+                <div class="slider--item" style="background-image:url('images/1.jpg');">
+                    <span>Viva o Surf</span>
+                </div>
+                <div class="slider--item" style="background-image:url('images/2.jpg');">
+                    <span>Curta a Onda</span>
+                </div>
+                <div class="slider--item" style="background-image:url('images/3.jpg');">
+                    <span>Viva essa Escolha</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
